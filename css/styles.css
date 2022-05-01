@@ -72,7 +72,7 @@ li {
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
-    border: 1px solid #ECECEC;       
+    border: 1px solid #ECECEC;      
 }
 
 .header .container {
@@ -171,6 +171,13 @@ li {
     background-color: #2F303A; 
     padding-top: 200px;   
     padding-bottom: 200px;
+    background-image:linear-gradient(
+    rgba(47, 48, 58, 0.4), 
+    rgba(47, 48, 58, 0.4)
+    ), 
+    url(../images/bgi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .hero .container {
     text-align: center;
