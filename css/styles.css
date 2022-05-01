@@ -171,14 +171,16 @@ li {
     background-color: #2F303A; 
     padding-top: 200px;   
     padding-bottom: 200px;
+    max-width: 1600px;
     background-image:linear-gradient(
     rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)
     ), 
     url(../images/bgi.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    margin: 0 auto;
 }
+
 .hero .container {
     text-align: center;
     
@@ -320,6 +322,37 @@ margin-bottom: 50px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    margin-bottom: 16px;
+}
+
+.team-soc-list{
+    display: flex;
+    justify-content: center;
+}
+
+.team-soc-item + .team-soc-item {
+    margin-left: 10px;
+}
+
+.team-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8 ;
+}
+
+.team-soc-link:hover {
+    background: #2196F3;
+    fill: #FFFFFF;
+}
+
+.team-soc-link:focus {
+    background: #2196F3;
+    fill: #FFFFFF;
 }
 
 /* --------------------FOOTER---------------------- */
@@ -388,6 +421,49 @@ color: #FFFFFF;
 .footer-adress-list-tel :hover,
 .footer-adress-list-tel :focus {
     color: #2196F3;
+}
+
+.footer-right {
+    
+}
+
+.footer-connection {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.footer-soc-list{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-soc-item + .footer-soc-item {
+    margin-left: 10px;
+}
+
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #FFFFFF ;
+}
+
+.footer-soc-link:hover {
+    background: #2196F3;
+    fill: #FFFFFF;
+}
+
+.footer-soc-link:focus {
+    background: #2196F3;
+    fill: #FFFFFF;
 }
 
 
