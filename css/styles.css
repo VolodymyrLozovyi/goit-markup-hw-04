@@ -148,7 +148,6 @@ li {
 
 .icon-mail {
     margin-right: 10px;
-    fill: currentColor;
 }
 
 .header-contact-mail :hover,
@@ -166,7 +165,6 @@ li {
 
 .icon-phone  {
     margin-right: 10px;
-    fill: currentColor;
 }
 
 .header-contact-tel :hover,
@@ -418,16 +416,12 @@ margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #AFB1B8;
-}
-
-.clients-logo {
-    fill: currentColor;
+    fill: #AFB1B8;
 }
 
 .clients-link:hover,
 .clients-link:focus {
-    color: #2196F3;
+    fill:#2196F3;
     border-color:#2196F3;
 }
 
