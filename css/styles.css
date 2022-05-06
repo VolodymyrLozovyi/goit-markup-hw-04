@@ -148,10 +148,19 @@ li {
 
 .icon-mail {
     margin-right: 10px;
+    fill: #757575;
 }
 
-.header-contact-mail :hover,
-.header-contact-mail :focus {
+.header-contact-mail .icon-mail:hover{
+    fill: #2196F3;
+}
+
+.header-contact-mail .icon-mail:focus {
+    fill: #2196F3;
+}
+
+.header-contact-mail:hover,
+.header-contact-mail:focus {
     color: #2196F3;
 }
 
@@ -163,12 +172,20 @@ li {
     color: #757575;
 }
 
-.icon-phone  {
-    margin-right: 10px;
+.header-contact-tel:hover,
+.header-contact-tel:focus {
+    color: #2196F3;
 }
 
-.header-contact-tel :hover,
-.header-contact-tel :focus {
+.icon-phone  {
+    margin-right: 10px;
+    fill: #757575;
+}
+
+.header-contact-tel .icon-phone :hover {
+    fill: #2196F3;
+}
+.header-contact-tel .icon-phone :focus {
     color: #2196F3;
 }
 
@@ -419,9 +436,15 @@ margin-bottom: 50px;
     fill: #AFB1B8;
 }
 
+.clients-link .clients-logo:hover {
+    fill:#2196F3;
+}
+.clients-link .clients-logo:focus {
+    fill:#2196F3;
+} 
+
 .clients-link:hover,
 .clients-link:focus {
-    fill:#2196F3;
     border-color:#2196F3;
 }
 
