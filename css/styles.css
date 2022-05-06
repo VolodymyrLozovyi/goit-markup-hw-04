@@ -144,7 +144,11 @@ li {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-    /* margin-right: 50px; */
+}
+
+.icon-mail {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .header-contact-mail :hover,
@@ -158,6 +162,11 @@ li {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+
+.icon-phone  {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 .header-contact-tel :hover,
@@ -397,11 +406,11 @@ margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.clients-logo + .clients-logo {
+.clients-item + .clients-item {
     margin-left: 30px;
 }
 
-.clients-logo-border {
+.clients-link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -409,6 +418,17 @@ margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #AFB1B8;
+}
+
+.clients-logo {
+    fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: #2196F3;
+    border-color:#2196F3;
 }
 
 /* --------------------FOOTER---------------------- */
@@ -416,7 +436,7 @@ margin-bottom: 50px;
 .footer {
     background-color: #2F303A;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 60px; 
 }
 
 .footer-logo {
@@ -478,7 +498,7 @@ color: #FFFFFF;
 }
 
 .footer-right {
-    
+    display: flex;
 }
 
 .footer-connection {
