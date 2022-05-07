@@ -151,17 +151,6 @@ li {
     color: #757575;
 }
 
-.header-contact-mail::before {
-    content: "";
-    width: 16px;
-    height: 12px;
-    background-color: #FFFFFF;
-    background-image: url(../images/envelope.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 10px;
-}
-
 .header-contact-mail :hover,
 .header-contact-mail :focus {
     color: #2196F3;
@@ -175,22 +164,20 @@ li {
     color: #757575;
 }
 
-.header-contact-tel::before {
-    content: "";
-    width: 10px;
-    height: 16px;
-    background-color: #FFFFFF;
-    background-image: url(../images/smartphone.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: 10px;
-}
-
 .header-contact-tel :hover,
 .header-contact-tel :focus {
     color: #2196F3;
 }
 
+.header-contact-icon {
+    margin-right: 10px;
+}
+
+.header-conection {
+    display: inline-flex;
+    fill: currentColor;
+    align-items: baseline;
+}
 
 /* --------------------HERO---------------------- */
 
@@ -632,11 +619,15 @@ margin-bottom: 20px;
     margin-bottom: 0px;
 }
 
-.portfolio-list:hover {
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-link:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.portfolio-list:focus {
+.portfolio-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
