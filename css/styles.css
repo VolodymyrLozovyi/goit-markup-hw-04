@@ -426,16 +426,10 @@ margin-bottom: 50px;
     fill: #AFB1B8;
 }
 
-.clients-link .clients-logo:hover {
-    fill:#2196F3;
-}
-.clients-link .clients-logo:focus {
-    fill:#2196F3;
-} 
-
 .clients-link:hover,
 .clients-link:focus {
     border-color:#2196F3;
+    fill:#2196F3;
 }
 
 /* --------------------FOOTER---------------------- */
